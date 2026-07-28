@@ -1,0 +1,1574 @@
+0 verbose cli /Users/harshita/.nvm/versions/node/v18.17.1/bin/node /Users/harshita/.nvm/versions/node/v18.17.1/bin/npm
+1 info using npm@9.6.7
+2 info using node@v18.17.1
+3 timing npm:load:whichnode Completed in 24ms
+4 timing config:load:defaults Completed in 48ms
+5 timing config:load:file:/Users/harshita/.nvm/versions/node/v18.17.1/lib/node_modules/npm/npmrc Completed in 23ms
+6 timing config:load:builtin Completed in 25ms
+7 timing config:load:cli Completed in 80ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 29ms
+11 timing config:load:file:/Users/harshita/.npmrc Completed in 19ms
+12 timing config:load:user Completed in 19ms
+13 timing config:load:file:/Users/harshita/.nvm/versions/node/v18.17.1/etc/npmrc Completed in 2ms
+14 timing config:load:global Completed in 3ms
+15 timing config:load:setEnvs Completed in 9ms
+16 timing config:load Completed in 218ms
+17 timing npm:load:configload Completed in 219ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install
+21 verbose argv "install" "--cache" "./work/npm-cache" "--loglevel" "error"
+22 timing npm:load:setTitle Completed in 20ms
+23 timing config:load:flatten Completed in 37ms
+24 timing npm:load:display Completed in 54ms
+25 verbose logfile logs-max:10 dir:/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/work/npm-cache/_logs/2026-07-28T08_27_51_314Z-
+26 verbose logfile /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/work/npm-cache/_logs/2026-07-28T08_27_51_314Z-debug-0.log
+27 timing npm:load:logFile Completed in 170ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 502ms
+31 timing arborist:ctor Completed in 36ms
+32 timing arborist:ctor Completed in 0ms
+33 silly logfile done cleaning log files
+34 timing idealTree:init Completed in 2069ms
+35 timing idealTree:userRequests Completed in 1ms
+36 silly idealTree buildDeps
+37 silly fetch manifest @studio-freight/lenis@^1.0.42
+38 http fetch GET 200 https://registry.npmjs.org/@studio-freight%2flenis 308ms (cache hit)
+39 silly fetch manifest framer-motion@^11.5.4
+40 http fetch GET 200 https://registry.npmjs.org/framer-motion 226ms (cache hit)
+41 silly fetch manifest @emotion/is-prop-valid@*
+42 http fetch GET 200 https://registry.npmjs.org/@emotion%2fis-prop-valid 13ms (cache hit)
+43 silly fetch manifest react@^18.3.1
+44 http fetch GET 200 https://registry.npmjs.org/react 88ms (cache hit)
+45 silly fetch manifest react-dom@^18.3.1
+46 http fetch GET 200 https://registry.npmjs.org/react-dom 244ms (cache hit)
+47 silly fetch manifest gsap@^3.12.5
+48 http fetch GET 200 https://registry.npmjs.org/gsap 232ms (cache hit)
+49 silly fetch manifest lucide-react@^0.441.0
+50 http fetch GET 200 https://registry.npmjs.org/lucide-react 82ms (cache hit)
+51 silly fetch manifest @types/react@^18.3.3
+52 http fetch GET 200 https://registry.npmjs.org/@types%2freact 97ms (cache hit)
+53 silly fetch manifest @types/react-dom@^18.3.0
+54 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 48ms (cache hit)
+55 silly fetch manifest @vitejs/plugin-react@^4.3.1
+56 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-react 163ms (cache hit)
+57 silly fetch manifest vite@^5.4.2
+58 http fetch GET 200 https://registry.npmjs.org/vite 173ms (cache hit)
+59 silly fetch manifest @types/node@^18.0.0 || >=20.0.0
+60 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 212ms (cache hit)
+61 silly fetch manifest less@*
+62 http fetch GET 200 https://registry.npmjs.org/less 36ms (cache hit)
+63 silly fetch manifest lightningcss@^1.21.0
+64 http fetch GET 200 https://registry.npmjs.org/lightningcss 60ms (cache hit)
+65 silly fetch manifest sass@*
+66 http fetch GET 200 https://registry.npmjs.org/sass 75ms (cache hit)
+67 silly fetch manifest sass-embedded@*
+68 http fetch GET 200 https://registry.npmjs.org/sass-embedded 82ms (cache hit)
+69 silly fetch manifest stylus@*
+70 http fetch GET 200 https://registry.npmjs.org/stylus 30ms (cache hit)
+71 silly fetch manifest sugarss@*
+72 http fetch GET 200 https://registry.npmjs.org/sugarss 45ms (cache hit)
+73 silly fetch manifest postcss@^8.3.3
+74 http fetch GET 200 https://registry.npmjs.org/postcss 30ms (cache hit)
+75 silly fetch manifest terser@^5.4.0
+76 http fetch GET 200 https://registry.npmjs.org/terser 25ms (cache hit)
+77 silly fetch manifest typescript@^5.5.4
+78 http fetch GET 200 https://registry.npmjs.org/typescript 165ms (cache hit)
+79 silly placeDep ROOT @studio-freight/lenis@1.0.42 REPLACE for: harshita-studio-portfolio@0.0.0 want: ^1.0.42
+80 silly placeDep ROOT @types/react@18.3.31 REPLACE for: harshita-studio-portfolio@0.0.0 want: ^18.3.3
+81 silly fetch manifest csstype@^3.2.2
+82 silly placeDep ROOT @types/react-dom@18.3.7 REPLACE for: harshita-studio-portfolio@0.0.0 want: ^18.3.0
+83 silly placeDep ROOT @vitejs/plugin-react@4.7.0 REPLACE for: harshita-studio-portfolio@0.0.0 want: ^4.3.1
+84 silly placeDep ROOT vite@5.4.21 OK for: @vitejs/plugin-react@4.7.0 want: ^4.2.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
+85 silly fetch manifest @babel/core@^7.28.0
+86 silly fetch manifest react-refresh@^0.17.0
+87 silly fetch manifest @babel/plugin-transform-react-jsx-self@^7.27.1
+88 silly fetch manifest rollup@^4.20.0
+89 silly fetch manifest esbuild@^0.21.3
+90 silly fetch manifest postcss@^8.4.43
+91 silly placeDep ROOT framer-motion@11.18.2 REPLACE for: harshita-studio-portfolio@0.0.0 want: ^11.5.4
+92 silly placeDep ROOT gsap@3.15.0 REPLACE for: harshita-studio-portfolio@0.0.0 want: ^3.12.5
+93 silly placeDep ROOT lucide-react@0.441.0 REPLACE for: harshita-studio-portfolio@0.0.0 want: ^0.441.0
+94 silly placeDep ROOT react@18.3.1 OK for: lucide-react@0.441.0 want: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
+95 silly placeDep ROOT react-dom@18.3.1 OK for: harshita-studio-portfolio@0.0.0 want: ^18.3.1
+96 silly fetch manifest scheduler@^0.23.2
+97 silly placeDep ROOT typescript@5.9.3 REPLACE for: harshita-studio-portfolio@0.0.0 want: ^5.5.4
+98 http fetch GET 200 https://registry.npmjs.org/scheduler 224ms (cache hit)
+99 http fetch GET 200 https://registry.npmjs.org/csstype 1102ms (cache hit)
+100 http fetch GET 200 https://registry.npmjs.org/@babel%2fcore 900ms (cache hit)
+101 http fetch GET 200 https://registry.npmjs.org/esbuild 959ms (cache hit)
+102 http fetch GET 200 https://registry.npmjs.org/react-refresh 1097ms (cache hit)
+103 http fetch GET 200 https://registry.npmjs.org/rollup 1415ms (cache hit)
+104 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-react-jsx-self 1795ms (cache hit)
+105 timing idealTree:#root Completed in 8874ms
+106 timing idealTree:node_modules/@studio-freight/lenis Completed in 0ms
+107 silly placeDep ROOT csstype@3.2.3 OK for: @types/react@18.3.31 want: ^3.2.2
+108 timing idealTree:node_modules/@types/react Completed in 60ms
+109 timing idealTree:node_modules/@types/react-dom Completed in 0ms
+110 silly placeDep ROOT @babel/core@7.29.7 OK for: @vitejs/plugin-react@4.7.0 want: ^7.28.0
+111 silly fetch manifest json5@^2.2.3
+112 silly fetch manifest semver@^6.3.1
+113 silly fetch manifest gensync@^1.0.0-beta.2
+114 silly fetch manifest @babel/types@^7.29.7
+115 silly fetch manifest @babel/parser@^7.29.7
+116 silly fetch manifest @babel/helpers@^7.29.7
+117 silly fetch manifest @babel/template@^7.29.7
+118 silly fetch manifest @babel/traverse@^7.29.7
+119 silly fetch manifest @babel/generator@^7.29.7
+120 silly fetch manifest @babel/code-frame@^7.29.7
+121 silly fetch manifest @jridgewell/remapping@^2.3.5
+122 silly fetch manifest @babel/helper-module-transforms@^7.29.7
+123 silly fetch manifest @babel/helper-compilation-targets@^7.29.7
+124 silly placeDep ROOT @babel/plugin-transform-react-jsx-self@7.29.7 OK for: @vitejs/plugin-react@4.7.0 want: ^7.27.1
+125 silly placeDep ROOT react-refresh@0.17.0 OK for: @vitejs/plugin-react@4.7.0 want: ^0.17.0
+126 http fetch GET 200 https://registry.npmjs.org/semver 539ms (cache hit)
+127 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelpers 579ms (cache hit)
+128 http fetch GET 200 https://registry.npmjs.org/json5 617ms (cache hit)
+129 http fetch GET 200 https://registry.npmjs.org/@babel%2ftypes 614ms (cache hit)
+130 http fetch GET 200 https://registry.npmjs.org/gensync 662ms (cache hit)
+131 http fetch GET 200 https://registry.npmjs.org/@babel%2ftraverse 565ms (cache hit)
+132 http fetch GET 200 https://registry.npmjs.org/@babel%2fcode-frame 568ms (cache hit)
+133 http fetch GET 200 https://registry.npmjs.org/@babel%2fparser 705ms (cache hit)
+134 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fremapping 661ms (cache hit)
+135 http fetch GET 200 https://registry.npmjs.org/@babel%2ftemplate 682ms (cache hit)
+136 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-compilation-targets 699ms (cache hit)
+137 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-module-transforms 731ms (cache hit)
+138 http fetch GET 200 https://registry.npmjs.org/@babel%2fgenerator 879ms (cache hit)
+139 timing idealTree:node_modules/@vitejs/plugin-react Completed in 1137ms
+140 silly fetch manifest @babel/core@^7.0.0
+141 silly placeDep node_modules/@babel/core @babel/code-frame@7.29.7 OK for: @babel/core@7.29.7 want: ^7.29.7
+142 silly fetch manifest @babel/helper-validator-identifier@^7.29.7
+143 silly placeDep node_modules/@babel/core @babel/generator@7.29.7 OK for: @babel/core@7.29.7 want: ^7.29.7
+144 silly fetch manifest @jridgewell/gen-mapping@^0.3.12
+145 silly fetch manifest @jridgewell/trace-mapping@^0.3.28
+146 silly placeDep node_modules/@babel/core @babel/helper-compilation-targets@7.29.7 OK for: @babel/core@7.29.7 want: ^7.29.7
+147 silly fetch manifest browserslist@^4.24.0
+148 silly fetch manifest @babel/compat-data@^7.29.7
+149 silly fetch manifest @babel/helper-validator-option@^7.29.7
+150 silly placeDep node_modules/@babel/core @babel/helper-module-transforms@7.29.7 OK for: @babel/core@7.29.7 want: ^7.29.7
+151 silly fetch manifest @babel/helper-module-imports@^7.29.7
+152 silly placeDep node_modules/@babel/core @babel/helpers@7.29.7 OK for: @babel/core@7.29.7 want: ^7.29.7
+153 silly placeDep node_modules/@babel/core @babel/parser@7.29.7 OK for: @babel/core@7.29.7 want: ^7.29.7
+154 silly placeDep node_modules/@babel/core @babel/template@7.29.7 OK for: @babel/core@7.29.7 want: ^7.29.7
+155 silly placeDep node_modules/@babel/core @babel/traverse@7.29.7 OK for: @babel/core@7.29.7 want: ^7.29.7
+156 silly placeDep node_modules/@babel/core @babel/types@7.29.7 OK for: @babel/core@7.29.7 want: ^7.29.7
+157 silly placeDep node_modules/@babel/core @jridgewell/remapping@2.3.5 OK for: @babel/core@7.29.7 want: ^2.3.5
+158 silly fetch manifest @jridgewell/gen-mapping@^0.3.5
+159 silly fetch manifest @jridgewell/trace-mapping@^0.3.24
+160 silly placeDep node_modules/@babel/core gensync@1.0.0-beta.2 OK for: @babel/core@7.29.7 want: ^1.0.0-beta.2
+161 silly placeDep node_modules/@babel/core json5@2.2.3 OK for: @babel/core@7.29.7 want: ^2.2.3
+162 silly placeDep node_modules/@babel/core semver@6.3.1 OK for: @babel/core@7.29.7 want: ^6.3.1
+163 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-validator-identifier 722ms (cache hit)
+164 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fgen-mapping 676ms (cache hit)
+165 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2ftrace-mapping 672ms (cache hit)
+166 http fetch GET 200 https://registry.npmjs.org/browserslist 652ms (cache hit)
+167 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2ftrace-mapping 363ms (cache hit)
+168 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fgen-mapping 369ms (cache hit)
+169 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-module-imports 561ms (cache hit)
+170 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-validator-option 617ms (cache hit)
+171 http fetch GET 200 https://registry.npmjs.org/@babel%2fcompat-data 732ms (cache hit)
+172 timing idealTree:node_modules/@babel/core Completed in 1088ms
+173 timing idealTree:node_modules/@babel/plugin-transform-react-jsx-self Completed in 0ms
+174 timing idealTree:node_modules/csstype Completed in 0ms
+175 timing idealTree:node_modules/framer-motion Completed in 0ms
+176 timing idealTree:node_modules/gsap Completed in 0ms
+177 timing idealTree:node_modules/lucide-react Completed in 0ms
+178 timing idealTree:node_modules/react Completed in 0ms
+179 silly placeDep node_modules/react-dom scheduler@0.23.2 OK for: react-dom@18.3.1 want: ^0.23.2
+180 timing idealTree:node_modules/react-dom Completed in 30ms
+181 timing idealTree:node_modules/react-refresh Completed in 0ms
+182 timing idealTree:node_modules/typescript Completed in 0ms
+183 silly placeDep node_modules/vite esbuild@0.21.5 OK for: vite@5.4.21 want: ^0.21.3
+184 silly fetch manifest @esbuild/aix-ppc64@0.21.5
+185 silly fetch manifest @esbuild/linux-arm@0.21.5
+186 silly fetch manifest @esbuild/linux-x64@0.21.5
+187 silly fetch manifest @esbuild/sunos-x64@0.21.5
+188 silly fetch manifest @esbuild/win32-x64@0.21.5
+189 silly fetch manifest @esbuild/darwin-x64@0.21.5
+190 silly fetch manifest @esbuild/linux-ia32@0.21.5
+191 silly fetch manifest @esbuild/netbsd-x64@0.21.5
+192 silly fetch manifest @esbuild/win32-ia32@0.21.5
+193 silly fetch manifest @esbuild/android-arm@0.21.5
+194 silly fetch manifest @esbuild/android-x64@0.21.5
+195 silly fetch manifest @esbuild/freebsd-x64@0.21.5
+196 silly fetch manifest @esbuild/linux-arm64@0.21.5
+197 silly fetch manifest @esbuild/linux-ppc64@0.21.5
+198 silly fetch manifest @esbuild/linux-s390x@0.21.5
+199 silly fetch manifest @esbuild/openbsd-x64@0.21.5
+200 silly fetch manifest @esbuild/win32-arm64@0.21.5
+201 silly fetch manifest @esbuild/darwin-arm64@0.21.5
+202 silly fetch manifest @esbuild/android-arm64@0.21.5
+203 silly fetch manifest @esbuild/freebsd-arm64@0.21.5
+204 silly fetch manifest @esbuild/linux-loong64@0.21.5
+205 silly fetch manifest @esbuild/linux-riscv64@0.21.5
+206 silly fetch manifest @esbuild/linux-mips64el@0.21.5
+207 silly placeDep node_modules/vite postcss@8.5.23 OK for: vite@5.4.21 want: ^8.4.43
+208 silly fetch manifest nanoid@^3.3.16
+209 silly fetch manifest source-map-js@^1.2.1
+210 silly placeDep node_modules/vite rollup@4.62.3 OK for: vite@5.4.21 want: ^4.20.0
+211 silly fetch manifest @rollup/rollup-freebsd-x64@4.62.3
+212 silly fetch manifest @rollup/rollup-openbsd-x64@4.62.3
+213 silly fetch manifest @rollup/rollup-darwin-arm64@4.62.3
+214 silly fetch manifest @rollup/rollup-android-arm64@4.62.3
+215 silly fetch manifest @rollup/rollup-freebsd-arm64@4.62.3
+216 silly fetch manifest @rollup/rollup-linux-x64-gnu@4.62.3
+217 silly fetch manifest @rollup/rollup-win32-x64-gnu@4.62.3
+218 silly fetch manifest @rollup/rollup-linux-x64-musl@4.62.3
+219 silly fetch manifest @rollup/rollup-win32-x64-msvc@4.62.3
+220 silly fetch manifest @rollup/rollup-linux-arm64-gnu@4.62.3
+221 silly fetch manifest @rollup/rollup-linux-ppc64-gnu@4.62.3
+222 silly fetch manifest @rollup/rollup-linux-s390x-gnu@4.62.3
+223 silly fetch manifest @rollup/rollup-win32-ia32-msvc@4.62.3
+224 silly fetch manifest @rollup/rollup-android-arm-eabi@4.62.3
+225 silly fetch manifest @rollup/rollup-linux-arm64-musl@4.62.3
+226 silly fetch manifest @rollup/rollup-linux-ppc64-musl@4.62.3
+227 silly fetch manifest @rollup/rollup-win32-arm64-msvc@4.62.3
+228 silly fetch manifest @rollup/rollup-linux-loong64-gnu@4.62.3
+229 silly fetch manifest @rollup/rollup-linux-riscv64-gnu@4.62.3
+230 silly fetch manifest @rollup/rollup-openharmony-arm64@4.62.3
+231 silly fetch manifest @rollup/rollup-linux-loong64-musl@4.62.3
+232 silly fetch manifest @rollup/rollup-linux-riscv64-musl@4.62.3
+233 silly fetch manifest @rollup/rollup-linux-arm-gnueabihf@4.62.3
+234 silly fetch manifest @rollup/rollup-linux-arm-musleabihf@4.62.3
+235 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm 1434ms (cache hit)
+236 http fetch GET 200 https://registry.npmjs.org/@esbuild%2faix-ppc64 1451ms (cache hit)
+237 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-x64 1451ms (cache hit)
+238 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-x64 1391ms (cache hit)
+239 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-x64 1448ms (cache hit)
+240 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-ia32 1493ms (cache hit)
+241 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-x64 1480ms (cache hit)
+242 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm64 1478ms (cache hit)
+243 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ia32 1519ms (cache hit)
+244 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-x64 1536ms (cache hit)
+245 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-arm64 1481ms (cache hit)
+246 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-arm64 1504ms (cache hit)
+247 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ppc64 1557ms (cache hit)
+248 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm 1594ms (cache hit)
+249 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-x64 1577ms (cache hit)
+250 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-riscv64 1491ms (cache hit)
+251 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm64 1572ms (cache hit)
+252 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 1522ms (cache hit)
+253 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-loong64 1525ms (cache hit)
+254 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-x64-gnu 1413ms (cache hit)
+255 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-mips64el 1553ms (cache hit)
+256 http fetch GET 200 https://registry.npmjs.org/nanoid 1545ms (cache hit)
+257 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 1517ms (cache hit)
+258 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 1528ms (cache hit)
+259 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 1525ms (cache hit)
+260 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-android-arm64 1597ms (cache hit)
+261 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl 1608ms (cache hit)
+262 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu 1499ms (cache hit)
+263 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu 1513ms (cache hit)
+264 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 1721ms (cache hit)
+265 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc 1617ms (cache hit)
+266 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu 1623ms (cache hit)
+267 http fetch GET 200 https://registry.npmjs.org/source-map-js 1843ms (cache hit)
+268 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu 1598ms (cache hit)
+269 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-x64-msvc 1673ms (cache hit)
+270 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fsunos-x64 2060ms (cache hit)
+271 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 1579ms (cache hit)
+272 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl 1627ms (cache hit)
+273 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu 1770ms (cache hit)
+274 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc 1698ms (cache hit)
+275 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-x64 2136ms (cache hit)
+276 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl 1716ms (cache hit)
+277 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu 1716ms (cache hit)
+278 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl 1699ms (cache hit)
+279 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl 1713ms (cache hit)
+280 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-s390x 2131ms (cache hit)
+281 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf 1757ms (cache hit)
+282 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi 1840ms (cache hit)
+283 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf 1782ms (cache hit)
+284 timing idealTree:node_modules/vite Completed in 2360ms
+285 silly placeDep node_modules/@babel/core @babel/helper-validator-identifier@7.29.7 OK for: @babel/code-frame@7.29.7 want: ^7.29.7
+286 timing idealTree:node_modules/@babel/core/node_modules/@babel/code-frame Completed in 11ms
+287 silly placeDep node_modules/@babel/core @jridgewell/gen-mapping@0.3.13 OK for: @babel/generator@7.29.7 want: ^0.3.12
+288 silly fetch manifest @jridgewell/sourcemap-codec@^1.5.0
+289 silly placeDep node_modules/@babel/core @jridgewell/trace-mapping@0.3.31 OK for: @babel/generator@7.29.7 want: ^0.3.28
+290 silly fetch manifest @jridgewell/sourcemap-codec@^1.4.14
+291 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fsourcemap-codec 64ms (cache hit)
+292 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fsourcemap-codec 82ms (cache hit)
+293 timing idealTree:node_modules/@babel/core/node_modules/@babel/generator Completed in 127ms
+294 silly placeDep node_modules/@babel/core @babel/compat-data@7.29.7 OK for: @babel/helper-compilation-targets@7.29.7 want: ^7.29.7
+295 silly placeDep node_modules/@babel/core @babel/helper-validator-option@7.29.7 OK for: @babel/helper-compilation-targets@7.29.7 want: ^7.29.7
+296 silly placeDep node_modules/@babel/core browserslist@4.28.7 OK for: @babel/helper-compilation-targets@7.29.7 want: ^4.24.0
+297 silly fetch manifest caniuse-lite@^1.0.30001806
+298 silly fetch manifest electron-to-chromium@^1.5.393
+299 silly fetch manifest baseline-browser-mapping@^2.10.44
+300 http fetch GET 200 https://registry.npmjs.org/caniuse-lite 135ms (cache hit)
+301 http fetch GET 200 https://registry.npmjs.org/electron-to-chromium 295ms (cache hit)
+302 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping 467ms (cache hit)
+303 timing idealTree:node_modules/@babel/core/node_modules/@babel/helper-compilation-targets Completed in 577ms
+304 timing idealTree:node_modules/@babel/core/node_modules/@babel/compat-data Completed in 0ms
+305 silly placeDep node_modules/@babel/core @babel/helper-module-imports@7.29.7 OK for: @babel/helper-module-transforms@7.29.7 want: ^7.29.7
+306 timing idealTree:node_modules/@babel/core/node_modules/@babel/helper-module-transforms Completed in 38ms
+307 timing idealTree:node_modules/@babel/core/node_modules/@babel/helper-module-imports Completed in 1ms
+308 timing idealTree:node_modules/@babel/core/node_modules/@babel/helper-validator-identifier Completed in 0ms
+309 timing idealTree:node_modules/@babel/core/node_modules/@babel/helper-validator-option Completed in 0ms
+310 timing idealTree:node_modules/@babel/core/node_modules/@babel/helpers Completed in 0ms
+311 timing idealTree:node_modules/@babel/core/node_modules/@babel/parser Completed in 1ms
+312 timing idealTree:node_modules/@babel/core/node_modules/@babel/template Completed in 0ms
+313 timing idealTree:node_modules/@babel/core/node_modules/@babel/traverse Completed in 0ms
+314 timing idealTree:node_modules/@babel/core/node_modules/@babel/types Completed in 0ms
+315 silly placeDep node_modules/@babel/core @jridgewell/sourcemap-codec@1.5.5 OK for: @jridgewell/gen-mapping@0.3.13 want: ^1.5.0
+316 timing idealTree:node_modules/@babel/core/node_modules/@jridgewell/gen-mapping Completed in 17ms
+317 timing idealTree:node_modules/@babel/core/node_modules/@jridgewell/remapping Completed in 0ms
+318 timing idealTree:node_modules/@babel/core/node_modules/@jridgewell/sourcemap-codec Completed in 0ms
+319 timing idealTree:node_modules/@babel/core/node_modules/@jridgewell/trace-mapping Completed in 0ms
+320 silly placeDep node_modules/@babel/core baseline-browser-mapping@2.11.5 OK for: browserslist@4.28.7 want: ^2.10.44
+321 silly placeDep node_modules/@babel/core caniuse-lite@1.0.30001806 OK for: browserslist@4.28.7 want: ^1.0.30001806
+322 silly placeDep node_modules/@babel/core electron-to-chromium@1.5.397 OK for: browserslist@4.28.7 want: ^1.5.393
+323 timing idealTree:node_modules/@babel/core/node_modules/browserslist Completed in 96ms
+324 timing idealTree:node_modules/@babel/core/node_modules/baseline-browser-mapping Completed in 0ms
+325 timing idealTree:node_modules/@babel/core/node_modules/caniuse-lite Completed in 0ms
+326 timing idealTree:node_modules/@babel/core/node_modules/electron-to-chromium Completed in 0ms
+327 timing idealTree:node_modules/@babel/core/node_modules/gensync Completed in 0ms
+328 timing idealTree:node_modules/@babel/core/node_modules/json5 Completed in 0ms
+329 timing idealTree:node_modules/@babel/core/node_modules/semver Completed in 1ms
+330 timing idealTree:node_modules/react-dom/node_modules/scheduler Completed in 0ms
+331 silly placeDep node_modules/vite @esbuild/aix-ppc64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+332 silly placeDep node_modules/vite @esbuild/android-arm@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+333 silly placeDep node_modules/vite @esbuild/android-arm64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+334 silly placeDep node_modules/vite @esbuild/android-x64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+335 silly placeDep node_modules/vite @esbuild/darwin-arm64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+336 silly placeDep node_modules/vite @esbuild/darwin-x64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+337 silly placeDep node_modules/vite @esbuild/freebsd-arm64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+338 silly placeDep node_modules/vite @esbuild/freebsd-x64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+339 silly placeDep node_modules/vite @esbuild/linux-arm@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+340 silly placeDep node_modules/vite @esbuild/linux-arm64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+341 silly placeDep node_modules/vite @esbuild/linux-ia32@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+342 silly placeDep node_modules/vite @esbuild/linux-loong64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+343 silly placeDep node_modules/vite @esbuild/linux-mips64el@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+344 silly placeDep node_modules/vite @esbuild/linux-ppc64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+345 silly placeDep node_modules/vite @esbuild/linux-riscv64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+346 silly placeDep node_modules/vite @esbuild/linux-s390x@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+347 silly placeDep node_modules/vite @esbuild/linux-x64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+348 silly placeDep node_modules/vite @esbuild/netbsd-x64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+349 silly placeDep node_modules/vite @esbuild/openbsd-x64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+350 silly placeDep node_modules/vite @esbuild/sunos-x64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+351 silly placeDep node_modules/vite @esbuild/win32-arm64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+352 silly placeDep node_modules/vite @esbuild/win32-ia32@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+353 silly placeDep node_modules/vite @esbuild/win32-x64@0.21.5 OK for: esbuild@0.21.5 want: 0.21.5
+354 timing idealTree:node_modules/vite/node_modules/esbuild Completed in 513ms
+355 timing idealTree:node_modules/vite/node_modules/@esbuild/aix-ppc64 Completed in 1ms
+356 timing idealTree:node_modules/vite/node_modules/@esbuild/android-arm Completed in 1ms
+357 timing idealTree:node_modules/vite/node_modules/@esbuild/android-arm64 Completed in 0ms
+358 timing idealTree:node_modules/vite/node_modules/@esbuild/android-x64 Completed in 0ms
+359 timing idealTree:node_modules/vite/node_modules/@esbuild/darwin-arm64 Completed in 0ms
+360 timing idealTree:node_modules/vite/node_modules/@esbuild/darwin-x64 Completed in 1ms
+361 timing idealTree:node_modules/vite/node_modules/@esbuild/freebsd-arm64 Completed in 0ms
+362 timing idealTree:node_modules/vite/node_modules/@esbuild/freebsd-x64 Completed in 0ms
+363 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-arm Completed in 0ms
+364 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-arm64 Completed in 0ms
+365 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-ia32 Completed in 0ms
+366 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-loong64 Completed in 0ms
+367 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-mips64el Completed in 0ms
+368 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-ppc64 Completed in 0ms
+369 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-riscv64 Completed in 0ms
+370 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-s390x Completed in 1ms
+371 timing idealTree:node_modules/vite/node_modules/@esbuild/linux-x64 Completed in 0ms
+372 timing idealTree:node_modules/vite/node_modules/@esbuild/netbsd-x64 Completed in 0ms
+373 timing idealTree:node_modules/vite/node_modules/@esbuild/openbsd-x64 Completed in 0ms
+374 timing idealTree:node_modules/vite/node_modules/@esbuild/sunos-x64 Completed in 0ms
+375 timing idealTree:node_modules/vite/node_modules/@esbuild/win32-arm64 Completed in 0ms
+376 timing idealTree:node_modules/vite/node_modules/@esbuild/win32-ia32 Completed in 0ms
+377 timing idealTree:node_modules/vite/node_modules/@esbuild/win32-x64 Completed in 0ms
+378 silly placeDep node_modules/vite nanoid@3.3.16 OK for: postcss@8.5.23 want: ^3.3.16
+379 silly placeDep node_modules/vite source-map-js@1.2.1 OK for: postcss@8.5.23 want: ^1.2.1
+380 timing idealTree:node_modules/vite/node_modules/postcss Completed in 159ms
+381 timing idealTree:node_modules/vite/node_modules/nanoid Completed in 0ms
+382 silly placeDep node_modules/vite @rollup/rollup-android-arm-eabi@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+383 silly placeDep node_modules/vite @rollup/rollup-android-arm64@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+384 silly placeDep node_modules/vite @rollup/rollup-darwin-arm64@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+385 silly placeDep node_modules/vite @rollup/rollup-freebsd-arm64@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+386 silly placeDep node_modules/vite @rollup/rollup-freebsd-x64@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+387 silly placeDep node_modules/vite @rollup/rollup-linux-arm-gnueabihf@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+388 silly placeDep node_modules/vite @rollup/rollup-linux-arm-musleabihf@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+389 silly placeDep node_modules/vite @rollup/rollup-linux-arm64-gnu@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+390 silly placeDep node_modules/vite @rollup/rollup-linux-arm64-musl@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+391 silly placeDep node_modules/vite @rollup/rollup-linux-loong64-gnu@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+392 silly placeDep node_modules/vite @rollup/rollup-linux-loong64-musl@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+393 silly placeDep node_modules/vite @rollup/rollup-linux-ppc64-gnu@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+394 silly placeDep node_modules/vite @rollup/rollup-linux-ppc64-musl@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+395 silly placeDep node_modules/vite @rollup/rollup-linux-riscv64-gnu@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+396 silly placeDep node_modules/vite @rollup/rollup-linux-riscv64-musl@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+397 silly placeDep node_modules/vite @rollup/rollup-linux-s390x-gnu@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+398 silly placeDep node_modules/vite @rollup/rollup-linux-x64-gnu@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+399 silly placeDep node_modules/vite @rollup/rollup-linux-x64-musl@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+400 silly placeDep node_modules/vite @rollup/rollup-openbsd-x64@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+401 silly placeDep node_modules/vite @rollup/rollup-openharmony-arm64@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+402 silly placeDep node_modules/vite @rollup/rollup-win32-arm64-msvc@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+403 silly placeDep node_modules/vite @rollup/rollup-win32-ia32-msvc@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+404 silly placeDep node_modules/vite @rollup/rollup-win32-x64-gnu@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+405 silly placeDep node_modules/vite @rollup/rollup-win32-x64-msvc@4.62.3 OK for: rollup@4.62.3 want: 4.62.3
+406 timing idealTree:node_modules/vite/node_modules/rollup Completed in 436ms
+407 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-android-arm-eabi Completed in 0ms
+408 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-android-arm64 Completed in 7ms
+409 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-darwin-arm64 Completed in 0ms
+410 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-freebsd-arm64 Completed in 1ms
+411 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-freebsd-x64 Completed in 0ms
+412 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-arm-gnueabihf Completed in 0ms
+413 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-arm-musleabihf Completed in 0ms
+414 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-arm64-gnu Completed in 0ms
+415 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-arm64-musl Completed in 0ms
+416 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-loong64-gnu Completed in 1ms
+417 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-loong64-musl Completed in 0ms
+418 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-ppc64-gnu Completed in 0ms
+419 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-ppc64-musl Completed in 0ms
+420 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-riscv64-gnu Completed in 0ms
+421 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-riscv64-musl Completed in 0ms
+422 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-s390x-gnu Completed in 0ms
+423 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-x64-gnu Completed in 0ms
+424 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-linux-x64-musl Completed in 0ms
+425 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-openbsd-x64 Completed in 0ms
+426 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-openharmony-arm64 Completed in 0ms
+427 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-win32-arm64-msvc Completed in 0ms
+428 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-win32-ia32-msvc Completed in 0ms
+429 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-win32-x64-gnu Completed in 0ms
+430 timing idealTree:node_modules/vite/node_modules/@rollup/rollup-win32-x64-msvc Completed in 0ms
+431 timing idealTree:node_modules/vite/node_modules/source-map-js Completed in 0ms
+432 timing idealTree:buildDeps Completed in 15737ms
+433 timing idealTree:fixDepFlags Completed in 24ms
+434 timing idealTree Completed in 17873ms
+435 timing reify:loadTrees Completed in 17876ms
+436 timing reify:diffTrees Completed in 46ms
+437 silly reify mark retired [
+437 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/baseline-browser-mapping'
+437 silly reify ]
+438 silly reify mark retired [
+438 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/caniuse-lite'
+438 silly reify ]
+439 silly reify mark retired [
+439 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/csstype'
+439 silly reify ]
+440 silly reify mark retired [
+440 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/debug'
+440 silly reify ]
+441 silly reify mark retired [
+441 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/electron-to-chromium'
+441 silly reify ]
+442 silly reify mark retired [
+442 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/esbuild'
+442 silly reify ]
+443 silly reify mark retired [
+443 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/framer-motion'
+443 silly reify ]
+444 silly reify mark retired [
+444 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/gensync'
+444 silly reify ]
+445 silly reify mark retired [
+445 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/gsap'
+445 silly reify ]
+446 silly reify mark retired [
+446 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/jsesc'
+446 silly reify ]
+447 silly reify mark retired [
+447 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/json5'
+447 silly reify ]
+448 silly reify mark retired [
+448 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/lucide-react'
+448 silly reify ]
+449 silly reify mark retired [
+449 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/nanoid'
+449 silly reify ]
+450 silly reify mark retired [
+450 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/node-releases'
+450 silly reify ]
+451 silly reify mark retired [
+451 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/postcss'
+451 silly reify ]
+452 silly reify mark retired [
+452 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/react'
+452 silly reify ]
+453 silly reify mark retired [
+453 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/react-dom'
+453 silly reify ]
+454 silly reify mark retired [
+454 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/react-refresh'
+454 silly reify ]
+455 silly reify mark retired [
+455 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/rollup'
+455 silly reify ]
+456 silly reify mark retired [
+456 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/scheduler'
+456 silly reify ]
+457 silly reify mark retired [
+457 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/semver'
+457 silly reify ]
+458 silly reify mark retired [
+458 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/source-map-js'
+458 silly reify ]
+459 silly reify mark retired [
+459 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/tslib'
+459 silly reify ]
+460 silly reify mark retired [
+460 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/typescript'
+460 silly reify ]
+461 silly reify mark retired [
+461 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite'
+461 silly reify ]
+462 silly reify mark retired [
+462 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/code-frame'
+462 silly reify ]
+463 silly reify mark retired [
+463 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/compat-data'
+463 silly reify ]
+464 silly reify mark retired [
+464 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/core'
+464 silly reify ]
+465 silly reify mark retired [
+465 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/generator'
+465 silly reify ]
+466 silly reify mark retired [
+466 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/helper-compilation-targets'
+466 silly reify ]
+467 silly reify mark retired [
+467 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/helper-globals'
+467 silly reify ]
+468 silly reify mark retired [
+468 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/helper-module-imports'
+468 silly reify ]
+469 silly reify mark retired [
+469 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/helper-module-transforms'
+469 silly reify ]
+470 silly reify mark retired [
+470 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/helper-string-parser'
+470 silly reify ]
+471 silly reify mark retired [
+471 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/helper-validator-identifier'
+471 silly reify ]
+472 silly reify mark retired [
+472 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/helper-validator-option'
+472 silly reify ]
+473 silly reify mark retired [
+473 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/helpers'
+473 silly reify ]
+474 silly reify mark retired [
+474 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/plugin-transform-react-jsx-self'
+474 silly reify ]
+475 silly reify mark retired [
+475 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/plugin-transform-react-jsx-source'
+475 silly reify ]
+476 silly reify mark retired [
+476 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/template'
+476 silly reify ]
+477 silly reify mark retired [
+477 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/traverse'
+477 silly reify ]
+478 silly reify mark retired [
+478 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/aix-ppc64'
+478 silly reify ]
+479 silly reify mark retired [
+479 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/android-arm64'
+479 silly reify ]
+480 silly reify mark retired [
+480 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/android-arm'
+480 silly reify ]
+481 silly reify mark retired [
+481 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/android-x64'
+481 silly reify ]
+482 silly reify mark retired [
+482 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/darwin-arm64'
+482 silly reify ]
+483 silly reify mark retired [
+483 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/darwin-x64'
+483 silly reify ]
+484 silly reify mark retired [
+484 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/freebsd-arm64'
+484 silly reify ]
+485 silly reify mark retired [
+485 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/freebsd-x64'
+485 silly reify ]
+486 silly reify mark retired [
+486 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-arm'
+486 silly reify ]
+487 silly reify mark retired [
+487 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-arm64'
+487 silly reify ]
+488 silly reify mark retired [
+488 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-ia32'
+488 silly reify ]
+489 silly reify mark retired [
+489 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-loong64'
+489 silly reify ]
+490 silly reify mark retired [
+490 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-mips64el'
+490 silly reify ]
+491 silly reify mark retired [
+491 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-ppc64'
+491 silly reify ]
+492 silly reify mark retired [
+492 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-riscv64'
+492 silly reify ]
+493 silly reify mark retired [
+493 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-s390x'
+493 silly reify ]
+494 silly reify mark retired [
+494 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-x64'
+494 silly reify ]
+495 silly reify mark retired [
+495 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/netbsd-x64'
+495 silly reify ]
+496 silly reify mark retired [
+496 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/openbsd-x64'
+496 silly reify ]
+497 silly reify mark retired [
+497 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/sunos-x64'
+497 silly reify ]
+498 silly reify mark retired [
+498 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/win32-arm64'
+498 silly reify ]
+499 silly reify mark retired [
+499 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/win32-ia32'
+499 silly reify ]
+500 silly reify mark retired [
+500 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/win32-x64'
+500 silly reify ]
+501 silly reify mark retired [
+501 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@jridgewell/gen-mapping'
+501 silly reify ]
+502 silly reify mark retired [
+502 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@jridgewell/remapping'
+502 silly reify ]
+503 silly reify mark retired [
+503 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@jridgewell/sourcemap-codec'
+503 silly reify ]
+504 silly reify mark retired [
+504 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@jridgewell/trace-mapping'
+504 silly reify ]
+505 silly reify mark retired [
+505 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rolldown/pluginutils'
+505 silly reify ]
+506 silly reify mark retired [
+506 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-android-arm-eabi'
+506 silly reify ]
+507 silly reify mark retired [
+507 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-android-arm64'
+507 silly reify ]
+508 silly reify mark retired [
+508 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-darwin-arm64'
+508 silly reify ]
+509 silly reify mark retired [
+509 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-freebsd-arm64'
+509 silly reify ]
+510 silly reify mark retired [
+510 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-freebsd-x64'
+510 silly reify ]
+511 silly reify mark retired [
+511 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+511 silly reify ]
+512 silly reify mark retired [
+512 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-arm-musleabihf'
+512 silly reify ]
+513 silly reify mark retired [
+513 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-arm64-gnu'
+513 silly reify ]
+514 silly reify mark retired [
+514 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-arm64-musl'
+514 silly reify ]
+515 silly reify mark retired [
+515 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-loong64-gnu'
+515 silly reify ]
+516 silly reify mark retired [
+516 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-loong64-musl'
+516 silly reify ]
+517 silly reify mark retired [
+517 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-ppc64-gnu'
+517 silly reify ]
+518 silly reify mark retired [
+518 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-ppc64-musl'
+518 silly reify ]
+519 silly reify mark retired [
+519 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-riscv64-gnu'
+519 silly reify ]
+520 silly reify mark retired [
+520 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-riscv64-musl'
+520 silly reify ]
+521 silly reify mark retired [
+521 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-s390x-gnu'
+521 silly reify ]
+522 silly reify mark retired [
+522 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-x64-gnu'
+522 silly reify ]
+523 silly reify mark retired [
+523 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-x64-musl'
+523 silly reify ]
+524 silly reify mark retired [
+524 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-openbsd-x64'
+524 silly reify ]
+525 silly reify mark retired [
+525 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-openharmony-arm64'
+525 silly reify ]
+526 silly reify mark retired [
+526 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-win32-arm64-msvc'
+526 silly reify ]
+527 silly reify mark retired [
+527 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-win32-ia32-msvc'
+527 silly reify ]
+528 silly reify mark retired [
+528 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-win32-x64-gnu'
+528 silly reify ]
+529 silly reify mark retired [
+529 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-win32-x64-msvc'
+529 silly reify ]
+530 silly reify mark retired [
+530 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@studio-freight/lenis'
+530 silly reify ]
+531 silly reify mark retired [
+531 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@types/babel__core'
+531 silly reify ]
+532 silly reify mark retired [
+532 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@types/babel__traverse'
+532 silly reify ]
+533 silly reify mark retired [
+533 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@types/prop-types'
+533 silly reify ]
+534 silly reify mark retired [
+534 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@types/react'
+534 silly reify ]
+535 silly reify mark retired [
+535 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@types/react-dom'
+535 silly reify ]
+536 silly reify mark retired [
+536 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@vitejs/plugin-react'
+536 silly reify ]
+537 silly reify mark retired [
+537 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/loose-envify',
+537 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.bin/loose-envify'
+537 silly reify ]
+538 silly reify mark retired [
+538 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/update-browserslist-db',
+538 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.bin/update-browserslist-db'
+538 silly reify ]
+539 silly reify moves {
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/baseline-browser-mapping': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.baseline-browser-mapping-CLsfCvlP',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/caniuse-lite': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.caniuse-lite-dTG8R71A',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/csstype': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.csstype-y0MgfNCj',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/debug': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.debug-mlIPBv0b',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/electron-to-chromium': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.electron-to-chromium-QBdnatQf',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/esbuild': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.esbuild-lfBxy3B2',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/framer-motion': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.framer-motion-hAxYxgro',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/gensync': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.gensync-fVt7UTcg',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/gsap': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.gsap-iaDPeHjL',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/jsesc': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.jsesc-Vw4x1gnf',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/json5': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.json5-9EgHZPdg',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/lucide-react': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.lucide-react-W13Ig0ji',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/nanoid': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.nanoid-DniFIXhy',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/node-releases': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.node-releases-GU7CnjGI',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/postcss': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.postcss-AMg6uX5K',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/react': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.react-l0IgNjHv',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/react-dom': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.react-dom-KjOxGk6i',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/react-refresh': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.react-refresh-3zDc7zYP',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/rollup': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.rollup-OojAS3Eb',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/scheduler': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.scheduler-kUW375Ma',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/semver': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.semver-doKmvmDH',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/source-map-js': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.source-map-js-zJLLsAzd',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/tslib': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.tslib-iNmed8gY',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/typescript': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.typescript-oqgMDhvL',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.vite-ZJOQnptJ',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/code-frame': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/.code-frame-T6wuJTUI',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/compat-data': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/.compat-data-iiuMJkwl',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/core': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/.core-CTZjYbYb',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/generator': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/.generator-wRPw83gY',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/helper-compilation-targets': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/.helper-compilation-targets-24t2ZOHa',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/helper-globals': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/.helper-globals-5iyRGT7R',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/helper-module-imports': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/.helper-module-imports-iX8vfZV6',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/helper-module-transforms': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/.helper-module-transforms-XtR1XYFb',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/helper-string-parser': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/.helper-string-parser-0wy9mDJc',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/helper-validator-identifier': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/.helper-validator-identifier-KLpls2Gr',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/helper-validator-option': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/.helper-validator-option-yXFUGx5U',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/helpers': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/.helpers-ZNxltUCy',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/plugin-transform-react-jsx-self': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/.plugin-transform-react-jsx-self-Q46qv57p',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/plugin-transform-react-jsx-source': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/.plugin-transform-react-jsx-source-ZdWptXti',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/template': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/.template-NKlhX3cP',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/traverse': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@babel/.traverse-52KGPHxP',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/aix-ppc64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.aix-ppc64-VNnRAkp0',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/android-arm64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.android-arm64-uX6gYtQP',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/android-arm': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.android-arm-vEJR7hes',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/android-x64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.android-x64-J5wqaoTO',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/darwin-arm64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.darwin-arm64-9zFiuO75',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/darwin-x64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.darwin-x64-TeamHxtt',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/freebsd-arm64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.freebsd-arm64-Rn4CWtwi',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/freebsd-x64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.freebsd-x64-RxZ1QDmO',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-arm': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.linux-arm-yHM9Swe6',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-arm64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.linux-arm64-9EKGrKAv',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-ia32': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.linux-ia32-F9GyIGBe',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-loong64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.linux-loong64-LfiZ5Fle',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-mips64el': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.linux-mips64el-GdiyHWNB',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-ppc64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.linux-ppc64-ijn4wbum',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-riscv64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.linux-riscv64-dvqFWBcH',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-s390x': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.linux-s390x-lAWlTzb3',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/linux-x64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.linux-x64-qZ6WzZ1C',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/netbsd-x64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.netbsd-x64-yugYo6L8',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/openbsd-x64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.openbsd-x64-5eyi7cIE',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/sunos-x64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.sunos-x64-j1rjraav',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/win32-arm64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.win32-arm64-ZaGNcKxQ',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/win32-ia32': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.win32-ia32-QnoCPy1a',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/win32-x64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@esbuild/.win32-x64-W11zwRI1',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@jridgewell/gen-mapping': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@jridgewell/.gen-mapping-Ic8qLRK7',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@jridgewell/remapping': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@jridgewell/.remapping-KgvB2tjO',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@jridgewell/sourcemap-codec': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@jridgewell/.sourcemap-codec-iEQhPf0q',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@jridgewell/trace-mapping': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@jridgewell/.trace-mapping-TqvBKAQc',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rolldown/pluginutils': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rolldown/.pluginutils-BeSNZxvj',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-android-arm-eabi': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-android-arm-eabi-BIwruESi',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-android-arm64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-android-arm64-8t1LF1dW',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-darwin-arm64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-darwin-arm64-Va0SKgxc',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-freebsd-arm64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-freebsd-arm64-tzG5GOiI',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-freebsd-x64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-freebsd-x64-AfTOYsqn',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-arm-gnueabihf': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-linux-arm-gnueabihf-d7KPJab1',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-arm-musleabihf': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-linux-arm-musleabihf-HYqh4i4e',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-arm64-gnu': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-linux-arm64-gnu-g0ygNSoL',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-arm64-musl': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-linux-arm64-musl-3cfO8QRz',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-loong64-gnu': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-linux-loong64-gnu-ct5DJFXO',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-loong64-musl': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-linux-loong64-musl-rFbTCHBl',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-ppc64-gnu': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-linux-ppc64-gnu-YFweDmww',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-ppc64-musl': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-linux-ppc64-musl-nue2lp3Z',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-riscv64-gnu': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-linux-riscv64-gnu-G2GIQ5uY',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-riscv64-musl': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-linux-riscv64-musl-c63AfMRq',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-s390x-gnu': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-linux-s390x-gnu-PClxQ9lM',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-x64-gnu': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-linux-x64-gnu-4YaXhFPE',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-linux-x64-musl': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-linux-x64-musl-gmHkQC2p',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-openbsd-x64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-openbsd-x64-TyIfGP39',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-openharmony-arm64': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-openharmony-arm64-uWx3xK6t',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-win32-arm64-msvc': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-win32-arm64-msvc-ncKsJ4WG',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-win32-ia32-msvc': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-win32-ia32-msvc-YgZf75b3',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-win32-x64-gnu': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-win32-x64-gnu-p0xmdm8d',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/rollup-win32-x64-msvc': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@rollup/.rollup-win32-x64-msvc-lnTOwxwV',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@studio-freight/lenis': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@studio-freight/.lenis-Rp5y8gb8',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@types/babel__core': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@types/.babel__core-3LxiXHGS',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@types/babel__traverse': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@types/.babel__traverse-6jjR6So1',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@types/prop-types': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@types/.prop-types-ucQwEqkj',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@types/react': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@types/.react-L45anKfH',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@types/react-dom': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@types/.react-dom-FMW6Yqad',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@vitejs/plugin-react': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/@vitejs/.plugin-react-j0VLKKpo',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/loose-envify': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.loose-envify-G2P8MfTX',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.bin/loose-envify': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.bin/.loose-envify-MwOwOqmJ',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/update-browserslist-db': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.update-browserslist-db-4oABWh1T',
+539 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.bin/update-browserslist-db': '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/.bin/.update-browserslist-db-teE0HBYR'
+539 silly reify }
+540 timing reify:retireShallow Completed in 533ms
+541 timing reify:createSparse Completed in 148ms
+542 timing reify:loadBundles Completed in 0ms
+543 silly audit bulk request {
+543 silly audit   'convert-source-map': [ '2.0.0' ],
+543 silly audit   debug: [ '4.4.3' ],
+543 silly audit   escalade: [ '3.2.0' ],
+543 silly audit   fsevents: [ '2.3.3' ],
+543 silly audit   'js-tokens': [ '4.0.0' ],
+543 silly audit   jsesc: [ '3.1.0' ],
+543 silly audit   'loose-envify': [ '1.4.0' ],
+543 silly audit   'lru-cache': [ '5.1.1' ],
+543 silly audit   ms: [ '2.1.3' ],
+543 silly audit   'motion-utils': [ '11.18.1' ],
+543 silly audit   'motion-dom': [ '11.18.1' ],
+543 silly audit   'node-releases': [ '2.0.51' ],
+543 silly audit   picocolors: [ '1.1.1' ],
+543 silly audit   tslib: [ '2.8.1' ],
+543 silly audit   'update-browserslist-db': [ '1.2.3' ],
+543 silly audit   yallist: [ '3.1.1' ],
+543 silly audit   '@babel/helper-globals': [ '7.29.7' ],
+543 silly audit   '@babel/helper-plugin-utils': [ '7.29.7' ],
+543 silly audit   '@babel/helper-string-parser': [ '7.29.7' ],
+543 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.29.7' ],
+543 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+543 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.27' ],
+543 silly audit   '@rollup/rollup-darwin-x64': [ '4.62.3' ],
+543 silly audit   '@types/babel__core': [ '7.20.5' ],
+543 silly audit   '@types/babel__generator': [ '7.27.0' ],
+543 silly audit   '@types/babel__template': [ '7.4.4' ],
+543 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+543 silly audit   '@types/estree': [ '1.0.9' ],
+543 silly audit   '@types/prop-types': [ '15.7.15' ],
+543 silly audit   '@studio-freight/lenis': [ '1.0.42' ],
+543 silly audit   '@types/react': [ '18.3.31' ],
+543 silly audit   '@types/react-dom': [ '18.3.7' ],
+543 silly audit   '@vitejs/plugin-react': [ '4.7.0' ],
+543 silly audit   vite: [ '5.4.21' ],
+543 silly audit   'framer-motion': [ '11.18.2' ],
+543 silly audit   gsap: [ '3.15.0' ],
+543 silly audit   'lucide-react': [ '0.441.0' ],
+543 silly audit   react: [ '18.3.1' ],
+543 silly audit   'react-dom': [ '18.3.1' ],
+543 silly audit   typescript: [ '5.9.3' ],
+543 silly audit   csstype: [ '3.2.3' ],
+543 silly audit   '@babel/core': [ '7.29.7' ],
+543 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.29.7' ],
+543 silly audit   'react-refresh': [ '0.17.0' ],
+543 silly audit   '@babel/code-frame': [ '7.29.7' ],
+543 silly audit   '@babel/generator': [ '7.29.7' ],
+543 silly audit   '@babel/helper-compilation-targets': [ '7.29.7' ],
+543 silly audit   '@babel/helper-module-transforms': [ '7.29.7' ],
+543 silly audit   '@babel/helpers': [ '7.29.7' ],
+543 silly audit   '@babel/parser': [ '7.29.7' ],
+543 silly audit   '@babel/template': [ '7.29.7' ],
+543 silly audit   '@babel/traverse': [ '7.29.7' ],
+543 silly audit   '@babel/types': [ '7.29.7' ],
+543 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+543 silly audit   gensync: [ '1.0.0-beta.2' ],
+543 silly audit   json5: [ '2.2.3' ],
+543 silly audit   semver: [ '6.3.1' ],
+543 silly audit   scheduler: [ '0.23.2' ],
+543 silly audit   esbuild: [ '0.21.5' ],
+543 silly audit   postcss: [ '8.5.23' ],
+543 silly audit   rollup: [ '4.62.3' ],
+543 silly audit   '@babel/helper-validator-identifier': [ '7.29.7' ],
+543 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+543 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+543 silly audit   '@babel/compat-data': [ '7.29.7' ],
+543 silly audit   '@babel/helper-validator-option': [ '7.29.7' ],
+543 silly audit   browserslist: [ '4.28.7' ],
+543 silly audit   '@babel/helper-module-imports': [ '7.29.7' ],
+543 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+543 silly audit   'baseline-browser-mapping': [ '2.11.5' ],
+543 silly audit   'caniuse-lite': [ '1.0.30001806' ],
+543 silly audit   'electron-to-chromium': [ '1.5.397' ],
+543 silly audit   '@esbuild/aix-ppc64': [ '0.21.5' ],
+543 silly audit   '@esbuild/android-arm': [ '0.21.5' ],
+543 silly audit   '@esbuild/android-arm64': [ '0.21.5' ],
+543 silly audit   '@esbuild/android-x64': [ '0.21.5' ],
+543 silly audit   '@esbuild/darwin-arm64': [ '0.21.5' ],
+543 silly audit   '@esbuild/darwin-x64': [ '0.21.5' ],
+543 silly audit   '@esbuild/freebsd-arm64': [ '0.21.5' ],
+543 silly audit   '@esbuild/freebsd-x64': [ '0.21.5' ],
+543 silly audit   '@esbuild/linux-arm': [ '0.21.5' ],
+543 silly audit   '@esbuild/linux-arm64': [ '0.21.5' ],
+543 silly audit   '@esbuild/linux-ia32': [ '0.21.5' ],
+543 silly audit   '@esbuild/linux-loong64': [ '0.21.5' ],
+543 silly audit   '@esbuild/linux-mips64el': [ '0.21.5' ],
+543 silly audit   '@esbuild/linux-ppc64': [ '0.21.5' ],
+543 silly audit   '@esbuild/linux-riscv64': [ '0.21.5' ],
+543 silly audit   '@esbuild/linux-s390x': [ '0.21.5' ],
+543 silly audit   '@esbuild/linux-x64': [ '0.21.5' ],
+543 silly audit   '@esbuild/netbsd-x64': [ '0.21.5' ],
+543 silly audit   '@esbuild/openbsd-x64': [ '0.21.5' ],
+543 silly audit   '@esbuild/sunos-x64': [ '0.21.5' ],
+543 silly audit   '@esbuild/win32-arm64': [ '0.21.5' ],
+543 silly audit   '@esbuild/win32-ia32': [ '0.21.5' ],
+543 silly audit   '@esbuild/win32-x64': [ '0.21.5' ],
+543 silly audit   nanoid: [ '3.3.16' ],
+543 silly audit   'source-map-js': [ '1.2.1' ],
+543 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-android-arm64': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-darwin-arm64': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-freebsd-x64': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-openbsd-x64': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.62.3' ],
+543 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.62.3' ]
+543 silly audit }
+544 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-win32-x64-msvc
+545 silly reify mark deleted [
+545 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-win32-x64-msvc'
+545 silly reify ]
+546 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-win32-x64-gnu
+547 silly reify mark deleted [
+547 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-win32-x64-gnu'
+547 silly reify ]
+548 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-win32-ia32-msvc
+549 silly reify mark deleted [
+549 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-win32-ia32-msvc'
+549 silly reify ]
+550 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-win32-arm64-msvc
+551 silly reify mark deleted [
+551 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-win32-arm64-msvc'
+551 silly reify ]
+552 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-openharmony-arm64
+553 silly reify mark deleted [
+553 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-openharmony-arm64'
+553 silly reify ]
+554 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-openbsd-x64
+555 silly reify mark deleted [
+555 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-openbsd-x64'
+555 silly reify ]
+556 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-x64-musl
+557 silly reify mark deleted [
+557 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-x64-musl'
+557 silly reify ]
+558 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-x64-gnu
+559 silly reify mark deleted [
+559 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-x64-gnu'
+559 silly reify ]
+560 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-s390x-gnu
+561 silly reify mark deleted [
+561 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-s390x-gnu'
+561 silly reify ]
+562 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-riscv64-musl
+563 silly reify mark deleted [
+563 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-riscv64-musl'
+563 silly reify ]
+564 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-riscv64-gnu
+565 silly reify mark deleted [
+565 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-riscv64-gnu'
+565 silly reify ]
+566 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-ppc64-musl
+567 silly reify mark deleted [
+567 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-ppc64-musl'
+567 silly reify ]
+568 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-ppc64-gnu
+569 silly reify mark deleted [
+569 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-ppc64-gnu'
+569 silly reify ]
+570 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-loong64-musl
+571 silly reify mark deleted [
+571 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-loong64-musl'
+571 silly reify ]
+572 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-loong64-gnu
+573 silly reify mark deleted [
+573 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-loong64-gnu'
+573 silly reify ]
+574 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-arm64-musl
+575 silly reify mark deleted [
+575 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-arm64-musl'
+575 silly reify ]
+576 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-arm64-gnu
+577 silly reify mark deleted [
+577 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-arm64-gnu'
+577 silly reify ]
+578 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-arm-musleabihf
+579 silly reify mark deleted [
+579 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-arm-musleabihf'
+579 silly reify ]
+580 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-arm-gnueabihf
+581 silly reify mark deleted [
+581 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+581 silly reify ]
+582 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-freebsd-x64
+583 silly reify mark deleted [
+583 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-freebsd-x64'
+583 silly reify ]
+584 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-freebsd-arm64
+585 silly reify mark deleted [
+585 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-freebsd-arm64'
+585 silly reify ]
+586 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-darwin-arm64
+587 silly reify mark deleted [
+587 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-darwin-arm64'
+587 silly reify ]
+588 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-android-arm64
+589 silly reify mark deleted [
+589 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-android-arm64'
+589 silly reify ]
+590 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-android-arm-eabi
+591 silly reify mark deleted [
+591 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@rollup/rollup-android-arm-eabi'
+591 silly reify ]
+592 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/win32-x64
+593 silly reify mark deleted [
+593 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/win32-x64'
+593 silly reify ]
+594 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/win32-ia32
+595 silly reify mark deleted [
+595 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/win32-ia32'
+595 silly reify ]
+596 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/win32-arm64
+597 silly reify mark deleted [
+597 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/win32-arm64'
+597 silly reify ]
+598 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/sunos-x64
+599 silly reify mark deleted [
+599 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/sunos-x64'
+599 silly reify ]
+600 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/openbsd-x64
+601 silly reify mark deleted [
+601 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/openbsd-x64'
+601 silly reify ]
+602 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/netbsd-x64
+603 silly reify mark deleted [
+603 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/netbsd-x64'
+603 silly reify ]
+604 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-x64
+605 silly reify mark deleted [
+605 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-x64'
+605 silly reify ]
+606 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-s390x
+607 silly reify mark deleted [
+607 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-s390x'
+607 silly reify ]
+608 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-riscv64
+609 silly reify mark deleted [
+609 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-riscv64'
+609 silly reify ]
+610 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-ppc64
+611 silly reify mark deleted [
+611 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-ppc64'
+611 silly reify ]
+612 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-mips64el
+613 silly reify mark deleted [
+613 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-mips64el'
+613 silly reify ]
+614 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-loong64
+615 silly reify mark deleted [
+615 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-loong64'
+615 silly reify ]
+616 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-ia32
+617 silly reify mark deleted [
+617 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-ia32'
+617 silly reify ]
+618 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-arm64
+619 silly reify mark deleted [
+619 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-arm64'
+619 silly reify ]
+620 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-arm
+621 silly reify mark deleted [
+621 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/linux-arm'
+621 silly reify ]
+622 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/freebsd-x64
+623 silly reify mark deleted [
+623 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/freebsd-x64'
+623 silly reify ]
+624 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/freebsd-arm64
+625 silly reify mark deleted [
+625 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/freebsd-arm64'
+625 silly reify ]
+626 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/darwin-arm64
+627 silly reify mark deleted [
+627 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/darwin-arm64'
+627 silly reify ]
+628 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/android-x64
+629 silly reify mark deleted [
+629 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/android-x64'
+629 silly reify ]
+630 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/android-arm64
+631 silly reify mark deleted [
+631 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/android-arm64'
+631 silly reify ]
+632 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/android-arm
+633 silly reify mark deleted [
+633 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/android-arm'
+633 silly reify ]
+634 verbose reify failed optional dependency /Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/aix-ppc64
+635 silly reify mark deleted [
+635 silly reify   '/Users/harshita/Documents/Codex/2026-07-28/act-as-an-award-winning-creative/node_modules/vite/node_modules/@esbuild/aix-ppc64'
+635 silly reify ]
+636 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-win32-x64-msvc Completed in 1507ms
+637 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-win32-x64-gnu Completed in 1507ms
+638 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-win32-ia32-msvc Completed in 1508ms
+639 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-win32-arm64-msvc Completed in 1508ms
+640 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-openharmony-arm64 Completed in 1510ms
+641 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-openbsd-x64 Completed in 1510ms
+642 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-linux-x64-musl Completed in 1510ms
+643 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-linux-x64-gnu Completed in 1513ms
+644 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-linux-s390x-gnu Completed in 1514ms
+645 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-linux-riscv64-musl Completed in 1514ms
+646 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-linux-riscv64-gnu Completed in 1515ms
+647 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-linux-ppc64-musl Completed in 1515ms
+648 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-linux-ppc64-gnu Completed in 1519ms
+649 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-linux-loong64-musl Completed in 1525ms
+650 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-linux-loong64-gnu Completed in 1525ms
+651 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-linux-arm64-musl Completed in 1522ms
+652 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-linux-arm64-gnu Completed in 1523ms
+653 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-linux-arm-musleabihf Completed in 1525ms
+654 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-linux-arm-gnueabihf Completed in 1557ms
+655 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-freebsd-x64 Completed in 1557ms
+656 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-freebsd-arm64 Completed in 1557ms
+657 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-darwin-arm64 Completed in 1557ms
+658 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-android-arm64 Completed in 1562ms
+659 timing reifyNode:node_modules/vite/node_modules/@rollup/rollup-android-arm-eabi Completed in 1560ms
+660 timing reifyNode:node_modules/vite/node_modules/@esbuild/win32-x64 Completed in 1555ms
+661 timing reifyNode:node_modules/vite/node_modules/@esbuild/win32-ia32 Completed in 1555ms
+662 timing reifyNode:node_modules/vite/node_modules/@esbuild/win32-arm64 Completed in 1553ms
+663 timing reifyNode:node_modules/vite/node_modules/@esbuild/sunos-x64 Completed in 1553ms
+664 timing reifyNode:node_modules/vite/node_modules/@esbuild/openbsd-x64 Completed in 1553ms
+665 timing reifyNode:node_modules/vite/node_modules/@esbuild/netbsd-x64 Completed in 1554ms
+666 timing reifyNode:node_modules/vite/node_modules/@esbuild/linux-x64 Completed in 1574ms
+667 timing reifyNode:node_modules/vite/node_modules/@esbuild/linux-s390x Completed in 1562ms
+668 timing reifyNode:node_modules/vite/node_modules/@esbuild/linux-riscv64 Completed in 1562ms
+669 timing reifyNode:node_modules/vite/node_modules/@esbuild/linux-ppc64 Completed in 1587ms
+670 timing reifyNode:node_modules/vite/node_modules/@esbuild/linux-mips64el Completed in 1585ms
+671 timing reifyNode:node_modules/vite/node_modules/@esbuild/linux-loong64 Completed in 1584ms
+672 timing reifyNode:node_modules/vite/node_modules/@esbuild/linux-ia32 Completed in 1634ms
+673 timing reifyNode:node_modules/vite/node_modules/@esbuild/linux-arm64 Completed in 1719ms
+674 timing reifyNode:node_modules/vite/node_modules/@esbuild/linux-arm Completed in 1717ms
+675 timing reifyNode:node_modules/vite/node_modules/@esbuild/freebsd-x64 Completed in 1717ms
+676 timing reifyNode:node_modules/vite/node_modules/@esbuild/freebsd-arm64 Completed in 1717ms
+677 timing reifyNode:node_modules/vite/node_modules/@esbuild/darwin-arm64 Completed in 1718ms
+678 timing reifyNode:node_modules/vite/node_modules/@esbuild/android-x64 Completed in 1717ms
+679 timing reifyNode:node_modules/vite/node_modules/@esbuild/android-arm64 Completed in 1717ms
+680 timing reifyNode:node_modules/vite/node_modules/@esbuild/android-arm Completed in 1715ms
+681 timing reifyNode:node_modules/vite/node_modules/@esbuild/aix-ppc64 Completed in 1715ms
+682 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz. Extracting by manifest.
+683 silly tarball no local data for lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-0.441.0.tgz. Extracting by manifest.
+684 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 10301ms
+685 timing auditReport:getReport Completed in 10372ms
+686 silly audit report {
+686 silly audit report   vite: [
+686 silly audit report     {
+686 silly audit report       id: 1120784,
+686 silly audit report       url: 'https://github.com/advisories/GHSA-v6wh-96g9-6wx3',
+686 silly audit report       title: 'launch-editor: NTLMv2 hash disclosure via UNC path handling on Windows',
+686 silly audit report       severity: 'moderate',
+686 silly audit report       vulnerable_versions: '<=6.4.2',
+686 silly audit report       cwe: [Array],
+686 silly audit report       cvss: [Object]
+686 silly audit report     },
+686 silly audit report     {
+686 silly audit report       id: 1116229,
+686 silly audit report       url: 'https://github.com/advisories/GHSA-4w7w-66w2-5vf9',
+686 silly audit report       title: 'Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling',
+686 silly audit report       severity: 'moderate',
+686 silly audit report       vulnerable_versions: '<=6.4.1',
+686 silly audit report       cwe: [Array],
+686 silly audit report       cvss: [Object]
+686 silly audit report     },
+686 silly audit report     {
+686 silly audit report       id: 1123525,
+686 silly audit report       url: 'https://github.com/advisories/GHSA-fx2h-pf6j-xcff',
+686 silly audit report       title: 'vite: `server.fs.deny` bypass on Windows alternate paths',
+686 silly audit report       severity: 'high',
+686 silly audit report       vulnerable_versions: '<=6.4.2',
+686 silly audit report       cwe: [Array],
+686 silly audit report       cvss: [Object]
+686 silly audit report     }
+686 silly audit report   ],
+686 silly audit report   esbuild: [
+686 silly audit report     {
+686 silly audit report       id: 1102341,
+686 silly audit report       url: 'https://github.com/advisories/GHSA-67mh-4wv8-2f99',
+686 silly audit report       title: 'esbuild enables any website to send any requests to the development server and read the response',
+686 silly audit report       severity: 'moderate',
+686 silly audit report       vulnerable_versions: '<=0.24.2',
+686 silly audit report       cwe: [Array],
+686 silly audit report       cvss: [Object]
+686 silly audit report     }
+686 silly audit report   ]
+686 silly audit report }
+687 timing metavuln:packument:vite Completed in 68ms
+688 timing metavuln:packument:esbuild Completed in 59ms
+689 timing reifyNode:node_modules/@babel/plugin-transform-react-jsx-self Completed in 12580ms
+690 timing reifyNode:node_modules/@babel/core/node_modules/@babel/code-frame Completed in 13568ms
+691 timing reifyNode:node_modules/@types/react-dom Completed in 14653ms
+692 timing metavuln:cache:get:security-advisory:vite:CReXW7o3cJZ0aN4nhg/gRV1E8OPJ2SoGmmUw6lY2bLjCfF70z3PbDKbutfCbWYbBHkeQ6W4F2IxffSmtDjtaNw== Completed in 4382ms
+693 timing metavuln:load:security-advisory:vite:1120784 Completed in 43ms
+694 timing metavuln:calculate:security-advisory:vite:1120784 Completed in 4444ms
+695 timing metavuln:cache:get:security-advisory:vite:eMMc8JhNvO5glHecr/Tzj6irpQ2XClO6WLy0eMQ1runry3c/+QJOQWsEHiljttVj4U5BjLuVLZPqZyDVgTsriA== Completed in 4412ms
+696 timing metavuln:load:security-advisory:vite:1123525 Completed in 274ms
+697 timing metavuln:calculate:security-advisory:vite:1123525 Completed in 4687ms
+698 timing metavuln:cache:get:security-advisory:vite:I1BdsVrQ8+F0Nz5pjiEY7gYSFBzvKNwOR8nQyg9euOprN34SC4VipJH1GMc8WCRl+e0xZWGr2QiYwiNwqO4gag== Completed in 4698ms
+699 timing metavuln:load:security-advisory:vite:1116229 Completed in 21ms
+700 timing metavuln:calculate:security-advisory:vite:1116229 Completed in 4720ms
+701 timing metavuln:cache:get:security-advisory:esbuild:jKdCIzePj7J1488qgRXvF8Srh9wutSuR1exB8YooNX62hT+qhtrUXYbArLNoIhgwbaCqKpmduh18syZU7BR9SA== Completed in 4716ms
+702 timing metavuln:load:security-advisory:esbuild:1102341 Completed in 101ms
+703 timing metavuln:calculate:security-advisory:esbuild:1102341 Completed in 4817ms
+704 timing metavuln:packument:@vitejs/plugin-react Completed in 1ms
+705 timing reifyNode:node_modules/@babel/core/node_modules/gensync Completed in 15388ms
+706 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db 13044ms (cache hit)
+707 http fetch GET 200 https://registry.npmjs.org/loose-envify 13037ms (cache hit)
+708 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__traverse 12989ms (cache hit)
+709 http fetch GET 200 https://registry.npmjs.org/@types%2fprop-types 13063ms (cache hit)
+710 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__core 13095ms (cache hit)
+711 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-string-parser 13071ms (cache hit)
+712 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-globals 13102ms (cache hit)
+713 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fpluginutils 13353ms (cache hit)
+714 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-react-jsx-source 13478ms (cache hit)
+715 http fetch GET 200 https://registry.npmjs.org/tslib 13411ms (cache hit)
+716 http fetch GET 200 https://registry.npmjs.org/node-releases 13512ms (cache hit)
+717 http fetch GET 200 https://registry.npmjs.org/jsesc 13536ms (cache hit)
+718 http fetch GET 200 https://registry.npmjs.org/debug 13544ms (cache hit)
+719 timing reifyNode:node_modules/@babel/core/node_modules/@babel/helper-validator-option Completed in 16199ms
+720 timing reifyNode:node_modules/@babel/core/node_modules/semver Completed in 16200ms
+721 timing reifyNode:node_modules/@babel/core/node_modules/@babel/helper-validator-identifier Completed in 16511ms
+722 timing reifyNode:node_modules/@vitejs/plugin-react Completed in 16657ms
+723 timing reifyNode:node_modules/react-refresh Completed in 16584ms
+724 timing reifyNode:node_modules/@babel/core/node_modules/browserslist Completed in 16745ms
+725 timing reifyNode:node_modules/@babel/core/node_modules/@babel/helper-module-imports Completed in 16874ms
+726 timing reifyNode:node_modules/vite/node_modules/esbuild Completed in 16913ms
+727 timing reifyNode:node_modules/@babel/core/node_modules/baseline-browser-mapping Completed in 17095ms
+728 timing metavuln:cache:get:security-advisory:@vitejs/plugin-react:0wQCaOjcD8j0E7CMKhLqaS736eOSJ1bx2S6fgASRE/T1guYEGWsGCQ7ThaaT9lDO/+W4PkJcRr36iPsISMLuLg== Completed in 1878ms
+729 timing metavuln:load:security-advisory:@vitejs/plugin-react:CReXW7o3cJZ0aN4nhg/gRV1E8OPJ2SoGmmUw6lY2bLjCfF70z3PbDKbutfCbWYbBHkeQ6W4F2IxffSmtDjtaNw== Completed in 4ms
+730 timing metavuln:calculate:security-advisory:@vitejs/plugin-react:CReXW7o3cJZ0aN4nhg/gRV1E8OPJ2SoGmmUw6lY2bLjCfF70z3PbDKbutfCbWYbBHkeQ6W4F2IxffSmtDjtaNw== Completed in 1886ms
+731 timing reifyNode:node_modules/@babel/core/node_modules/@babel/compat-data Completed in 17429ms
+732 timing reifyNode:node_modules/@babel/core/node_modules/@babel/helper-compilation-targets Completed in 17734ms
+733 timing reifyNode:node_modules/@babel/core/node_modules/electron-to-chromium Completed in 17910ms
+734 timing metavuln:cache:get:security-advisory:vite:tMBsdAS7JBTyRORp0YaJR984WAAsOxgmReSLBN0Nd41GhzEakjROICqAJ31iOdYG5Ijo/MlJ01p3ig1iN88+Tw== Completed in 823ms
+735 timing metavuln:load:security-advisory:vite:jKdCIzePj7J1488qgRXvF8Srh9wutSuR1exB8YooNX62hT+qhtrUXYbArLNoIhgwbaCqKpmduh18syZU7BR9SA== Completed in 230ms
+736 timing metavuln:calculate:security-advisory:vite:jKdCIzePj7J1488qgRXvF8Srh9wutSuR1exB8YooNX62hT+qhtrUXYbArLNoIhgwbaCqKpmduh18syZU7BR9SA== Completed in 1055ms
+737 timing auditReport:init Completed in 8243ms
+738 timing reify:audit Completed in 18635ms
+739 timing reifyNode:node_modules/@babel/core/node_modules/@babel/template Completed in 18525ms
+740 timing reifyNode:node_modules/react-dom/node_modules/scheduler Completed in 18654ms
+741 timing reifyNode:node_modules/@babel/core/node_modules/@babel/helper-module-transforms Completed in 18817ms
+742 http fetch GET 200 https://registry.npmjs.org/@types/babel__core/-/babel__core-7.20.5.tgz 3192ms (cache hit)
+743 http fetch GET 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 3392ms (cache hit)
+744 http fetch GET 200 https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.28.0.tgz 3339ms (cache hit)
+745 http fetch GET 200 https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.29.7.tgz 3164ms (cache hit)
+746 http fetch GET 200 https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.15.tgz 3308ms (cache hit)
+747 http fetch GET 200 https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.27.tgz 2921ms (cache hit)
+748 http fetch GET 200 https://registry.npmjs.org/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.29.7.tgz 2997ms (cache hit)
+749 http fetch GET 200 https://registry.npmjs.org/node-releases/-/node-releases-2.0.51.tgz 2867ms (cache hit)
+750 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 2915ms (cache hit)
+751 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 3580ms (cache hit)
+752 http fetch GET 200 https://registry.npmjs.org/@babel/helper-globals/-/helper-globals-7.29.7.tgz 3264ms (cache hit)
+753 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 2853ms (cache hit)
+754 http fetch GET 200 https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 2895ms (cache hit)
+755 timing reifyNode:node_modules/vite/node_modules/nanoid Completed in 19029ms
+756 timing reifyNode:node_modules/vite/node_modules/source-map-js Completed in 19093ms
+757 warn deprecated @studio-freight/lenis@1.0.42: The '@studio-freight/lenis' package has been renamed to 'lenis'. Please update your dependencies: npm install lenis and visit the documentation: https://www.npmjs.com/package/lenis
+758 timing reifyNode:node_modules/@studio-freight/lenis Completed in 19517ms
+759 timing reifyNode:node_modules/@babel/core/node_modules/@jridgewell/sourcemap-codec Completed in 19892ms
+760 timing reifyNode:node_modules/@babel/core/node_modules/@jridgewell/remapping Completed in 20041ms
+761 timing reifyNode:node_modules/react Completed in 20052ms
+762 timing reifyNode:node_modules/@babel/core/node_modules/json5 Completed in 20148ms
+763 timing reifyNode:node_modules/@types/react Completed in 20268ms
+764 timing reifyNode:node_modules/@babel/plugin-transform-react-jsx-source Completed in 20313ms
+765 timing reifyNode:node_modules/@babel/helper-globals Completed in 20308ms
+766 timing reifyNode:node_modules/debug Completed in 20230ms
+767 timing reifyNode:node_modules/@babel/core/node_modules/@jridgewell/gen-mapping Completed in 20324ms
+768 timing reifyNode:node_modules/@types/prop-types Completed in 20509ms
+769 timing reifyNode:node_modules/@rolldown/pluginutils Completed in 20510ms
+770 timing reifyNode:node_modules/loose-envify Completed in 20511ms
+771 timing reifyNode:node_modules/@types/babel__core Completed in 20511ms
+772 timing reifyNode:node_modules/@types/babel__traverse Completed in 20530ms
+773 timing reifyNode:node_modules/@babel/helper-string-parser Completed in 20585ms
+774 timing reifyNode:node_modules/update-browserslist-db Completed in 20616ms
+775 timing reifyNode:node_modules/jsesc Completed in 20513ms
+776 timing reifyNode:node_modules/node-releases Completed in 20544ms
+777 timing reifyNode:node_modules/tslib Completed in 20849ms
+778 timing reifyNode:node_modules/@babel/core/node_modules/@jridgewell/trace-mapping Completed in 21373ms
+779 timing reifyNode:node_modules/vite/node_modules/postcss Completed in 21802ms
+780 timing reifyNode:node_modules/csstype Completed in 21797ms
+781 timing reifyNode:node_modules/@babel/core/node_modules/@babel/generator Completed in 22393ms
+782 timing reifyNode:node_modules/@babel/core/node_modules/@babel/parser Completed in 23381ms
+783 timing reifyNode:node_modules/@babel/core/node_modules/@babel/traverse Completed in 23481ms
+784 timing reifyNode:node_modules/vite/node_modules/rollup Completed in 24784ms
+785 timing reifyNode:node_modules/@babel/core Completed in 25357ms
+786 timing reifyNode:node_modules/vite Completed in 25694ms
+787 timing reifyNode:node_modules/react-dom Completed in 26745ms
+788 timing reifyNode:node_modules/@babel/core/node_modules/@babel/helpers Completed in 26922ms
+789 timing reifyNode:node_modules/@babel/core/node_modules/@babel/types Completed in 28296ms
+790 timing reifyNode:node_modules/gsap Completed in 30401ms
+791 timing reifyNode:node_modules/vite/node_modules/@esbuild/darwin-x64 Completed in 30505ms
+792 timing reifyNode:node_modules/framer-motion Completed in 31705ms
+793 timing reifyNode:node_modules/@babel/core/node_modules/caniuse-lite Completed in 32787ms
+794 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 33805ms (cache miss)
+795 timing reifyNode:node_modules/typescript Completed in 36666ms
+796 http fetch GET 200 https://registry.npmjs.org/lucide-react/-/lucide-react-0.441.0.tgz 44027ms (cache miss)
+797 timing reifyNode:node_modules/lucide-react Completed in 46974ms
+798 timing reify:unpack Completed in 47083ms
+799 timing reify:unretire Completed in 5ms
+800 timing build:queue Completed in 64ms
+801 timing build:link:node_modules/jsesc Completed in 17ms
+802 timing build:link:node_modules/loose-envify Completed in 15ms
+803 timing build:link:node_modules/typescript Completed in 16ms
+804 timing build:link:node_modules/update-browserslist-db Completed in 11ms
+805 timing build:link:node_modules/vite Completed in 7ms
+806 timing build:link:node_modules/@babel/core/node_modules/@babel/parser Completed in 15ms
+807 timing build:link:node_modules/vite/node_modules/esbuild Completed in 15ms
+808 timing build:link:node_modules/@babel/core/node_modules/baseline-browser-mapping Completed in 16ms
+809 timing build:link:node_modules/@babel/core/node_modules/json5 Completed in 17ms
+810 timing build:link:node_modules/vite/node_modules/nanoid Completed in 17ms
+811 timing build:link:node_modules/@babel/core/node_modules/semver Completed in 19ms
+812 timing build:link:node_modules/@babel/core/node_modules/browserslist Completed in 22ms
+813 timing build:link:node_modules/vite/node_modules/rollup Completed in 23ms
+814 timing build:link Completed in 135ms
+815 info run esbuild@0.21.5 postinstall node_modules/vite/node_modules/esbuild node install.js
+816 info run esbuild@0.21.5 postinstall { code: 0, signal: null }
+817 timing build:run:postinstall:node_modules/vite/node_modules/esbuild Completed in 7858ms
+818 timing build:run:postinstall Completed in 7859ms
+819 timing build:deps Completed in 8082ms
+820 timing build Completed in 8083ms
+821 timing reify:build Completed in 8096ms
+822 timing reify:trash Completed in 2485ms
+823 timing reify:save Completed in 1144ms
+824 timing reify Completed in 78054ms
+825 silly CHANGE node_modules/update-browserslist-db
+826 silly CHANGE node_modules/loose-envify
+827 silly CHANGE node_modules/@vitejs/plugin-react
+828 silly CHANGE node_modules/@types/react-dom
+829 silly CHANGE node_modules/@types/react
+830 silly CHANGE node_modules/@types/prop-types
+831 silly CHANGE node_modules/@types/babel__traverse
+832 silly CHANGE node_modules/@types/babel__core
+833 silly CHANGE node_modules/@studio-freight/lenis
+834 silly REMOVE node_modules/@rollup/rollup-win32-x64-msvc
+835 silly REMOVE node_modules/@rollup/rollup-win32-x64-gnu
+836 silly REMOVE node_modules/@rollup/rollup-win32-ia32-msvc
+837 silly REMOVE node_modules/@rollup/rollup-win32-arm64-msvc
+838 silly REMOVE node_modules/@rollup/rollup-openharmony-arm64
+839 silly REMOVE node_modules/@rollup/rollup-openbsd-x64
+840 silly REMOVE node_modules/@rollup/rollup-linux-x64-musl
+841 silly REMOVE node_modules/@rollup/rollup-linux-x64-gnu
+842 silly REMOVE node_modules/@rollup/rollup-linux-s390x-gnu
+843 silly REMOVE node_modules/@rollup/rollup-linux-riscv64-musl
+844 silly REMOVE node_modules/@rollup/rollup-linux-riscv64-gnu
+845 silly REMOVE node_modules/@rollup/rollup-linux-ppc64-musl
+846 silly REMOVE node_modules/@rollup/rollup-linux-ppc64-gnu
+847 silly REMOVE node_modules/@rollup/rollup-linux-loong64-musl
+848 silly REMOVE node_modules/@rollup/rollup-linux-loong64-gnu
+849 silly REMOVE node_modules/@rollup/rollup-linux-arm64-musl
+850 silly REMOVE node_modules/@rollup/rollup-linux-arm64-gnu
+851 silly REMOVE node_modules/@rollup/rollup-linux-arm-musleabihf
+852 silly REMOVE node_modules/@rollup/rollup-linux-arm-gnueabihf
+853 silly REMOVE node_modules/@rollup/rollup-freebsd-x64
+854 silly REMOVE node_modules/@rollup/rollup-freebsd-arm64
+855 silly REMOVE node_modules/@rollup/rollup-darwin-arm64
+856 silly REMOVE node_modules/@rollup/rollup-android-arm64
+857 silly REMOVE node_modules/@rollup/rollup-android-arm-eabi
+858 silly CHANGE node_modules/@rolldown/pluginutils
+859 silly REMOVE node_modules/@jridgewell/trace-mapping
+860 silly REMOVE node_modules/@jridgewell/sourcemap-codec
+861 silly REMOVE node_modules/@jridgewell/remapping
+862 silly REMOVE node_modules/@jridgewell/gen-mapping
+863 silly REMOVE node_modules/@esbuild/win32-x64
+864 silly REMOVE node_modules/@esbuild/win32-ia32
+865 silly REMOVE node_modules/@esbuild/win32-arm64
+866 silly REMOVE node_modules/@esbuild/sunos-x64
+867 silly REMOVE node_modules/@esbuild/openbsd-x64
+868 silly REMOVE node_modules/@esbuild/netbsd-x64
+869 silly REMOVE node_modules/@esbuild/linux-x64
+870 silly REMOVE node_modules/@esbuild/linux-s390x
+871 silly REMOVE node_modules/@esbuild/linux-riscv64
+872 silly REMOVE node_modules/@esbuild/linux-ppc64
+873 silly REMOVE node_modules/@esbuild/linux-mips64el
+874 silly REMOVE node_modules/@esbuild/linux-loong64
+875 silly REMOVE node_modules/@esbuild/linux-ia32
+876 silly REMOVE node_modules/@esbuild/linux-arm64
+877 silly REMOVE node_modules/@esbuild/linux-arm
+878 silly REMOVE node_modules/@esbuild/freebsd-x64
+879 silly REMOVE node_modules/@esbuild/freebsd-arm64
+880 silly REMOVE node_modules/@esbuild/darwin-x64
+881 silly REMOVE node_modules/@esbuild/darwin-arm64
+882 silly REMOVE node_modules/@esbuild/android-x64
+883 silly REMOVE node_modules/@esbuild/android-arm
+884 silly REMOVE node_modules/@esbuild/android-arm64
+885 silly REMOVE node_modules/@esbuild/aix-ppc64
+886 silly REMOVE node_modules/@babel/traverse
+887 silly REMOVE node_modules/@babel/template
+888 silly CHANGE node_modules/@babel/plugin-transform-react-jsx-source
+889 silly CHANGE node_modules/@babel/plugin-transform-react-jsx-self
+890 silly REMOVE node_modules/@babel/helpers
+891 silly REMOVE node_modules/@babel/helper-validator-option
+892 silly REMOVE node_modules/@babel/helper-validator-identifier
+893 silly CHANGE node_modules/@babel/helper-string-parser
+894 silly REMOVE node_modules/@babel/helper-module-transforms
+895 silly REMOVE node_modules/@babel/helper-module-imports
+896 silly CHANGE node_modules/@babel/helper-globals
+897 silly REMOVE node_modules/@babel/helper-compilation-targets
+898 silly REMOVE node_modules/@babel/generator
+899 silly CHANGE node_modules/@babel/core
+900 silly ADD node_modules/@babel/core/node_modules/electron-to-chromium
+901 silly ADD node_modules/@babel/core/node_modules/caniuse-lite
+902 silly ADD node_modules/@babel/core/node_modules/baseline-browser-mapping
+903 silly ADD node_modules/@babel/core/node_modules/@jridgewell/sourcemap-codec
+904 silly ADD node_modules/@babel/core/node_modules/@babel/helper-module-imports
+905 silly ADD node_modules/@babel/core/node_modules/browserslist
+906 silly ADD node_modules/@babel/core/node_modules/@babel/helper-validator-option
+907 silly ADD node_modules/@babel/core/node_modules/@babel/compat-data
+908 silly ADD node_modules/@babel/core/node_modules/@jridgewell/trace-mapping
+909 silly ADD node_modules/@babel/core/node_modules/@jridgewell/gen-mapping
+910 silly ADD node_modules/@babel/core/node_modules/@babel/helper-validator-identifier
+911 silly ADD node_modules/@babel/core/node_modules/semver
+912 silly ADD node_modules/@babel/core/node_modules/json5
+913 silly ADD node_modules/@babel/core/node_modules/gensync
+914 silly ADD node_modules/@babel/core/node_modules/@jridgewell/remapping
+915 silly ADD node_modules/@babel/core/node_modules/@babel/types
+916 silly ADD node_modules/@babel/core/node_modules/@babel/traverse
+917 silly ADD node_modules/@babel/core/node_modules/@babel/template
+918 silly ADD node_modules/@babel/core/node_modules/@babel/parser
+919 silly ADD node_modules/@babel/core/node_modules/@babel/helpers
+920 silly ADD node_modules/@babel/core/node_modules/@babel/helper-module-transforms
+921 silly ADD node_modules/@babel/core/node_modules/@babel/helper-compilation-targets
+922 silly ADD node_modules/@babel/core/node_modules/@babel/generator
+923 silly ADD node_modules/@babel/core/node_modules/@babel/code-frame
+924 silly REMOVE node_modules/@babel/compat-data
+925 silly REMOVE node_modules/@babel/code-frame
+926 silly CHANGE node_modules/vite
+927 silly ADD
+928 silly ADD
+929 silly ADD
+930 silly ADD
+931 silly ADD
+932 silly ADD
+933 silly ADD
+934 silly ADD
+935 silly ADD
+936 silly ADD
+937 silly ADD
+938 silly ADD
+939 silly ADD
+940 silly ADD
+941 silly ADD
+942 silly ADD
+943 silly ADD
+944 silly ADD
+945 silly ADD
+946 silly ADD
+947 silly ADD
+948 silly ADD
+949 silly ADD
+950 silly ADD
+951 silly ADD node_modules/vite/node_modules/source-map-js
+952 silly ADD node_modules/vite/node_modules/nanoid
+953 silly ADD
+954 silly ADD
+955 silly ADD
+956 silly ADD
+957 silly ADD
+958 silly ADD
+959 silly ADD
+960 silly ADD
+961 silly ADD
+962 silly ADD
+963 silly ADD
+964 silly ADD
+965 silly ADD
+966 silly ADD
+967 silly ADD
+968 silly ADD
+969 silly ADD
+970 silly ADD node_modules/vite/node_modules/@esbuild/darwin-x64
+971 silly ADD
+972 silly ADD
+973 silly ADD
+974 silly ADD
+975 silly ADD
+976 silly ADD node_modules/vite/node_modules/rollup
+977 silly ADD node_modules/vite/node_modules/postcss
+978 silly ADD node_modules/vite/node_modules/esbuild
+979 silly CHANGE node_modules/typescript
+980 silly CHANGE node_modules/tslib
+981 silly REMOVE node_modules/source-map-js
+982 silly REMOVE node_modules/semver
+983 silly REMOVE node_modules/scheduler
+984 silly REMOVE node_modules/rollup
+985 silly CHANGE node_modules/react-refresh
+986 silly CHANGE node_modules/react-dom
+987 silly ADD node_modules/react-dom/node_modules/scheduler
+988 silly CHANGE node_modules/react
+989 silly REMOVE node_modules/postcss
+990 silly CHANGE node_modules/node-releases
+991 silly REMOVE node_modules/nanoid
+992 silly CHANGE node_modules/lucide-react
+993 silly REMOVE node_modules/json5
+994 silly CHANGE node_modules/jsesc
+995 silly CHANGE node_modules/gsap
+996 silly REMOVE node_modules/gensync
+997 silly CHANGE node_modules/framer-motion
+998 silly REMOVE node_modules/esbuild
+999 silly REMOVE node_modules/electron-to-chromium
+1000 silly CHANGE node_modules/debug
+1001 silly CHANGE node_modules/csstype
+1002 silly REMOVE node_modules/caniuse-lite
+1003 silly REMOVE node_modules/baseline-browser-mapping
+1004 timing command:install Completed in 78753ms
+1005 verbose exit 0
+1006 timing npm Completed in 83121ms
+1007 info ok
