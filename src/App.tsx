@@ -110,15 +110,6 @@ function App() {
               <Sparkles size={18} />
             </div>
           </div>
-          <div className="portrait">
-            <div className="portrait-glow" />
-            <div className="portrait-copy">
-              EVERY PIXEL
-              <br />
-              HAS A PURPOSE
-            </div>
-            <span className="portrait-index">001—</span>
-          </div>
         </section>
 
         <section className="chapter" id="process">
@@ -190,9 +181,11 @@ function App() {
             </h2>
             <span>({portfolioData.projects.length.toString().padStart(2, '0')})</span>
           </div>
-          {portfolioData.projects.map((project) => (
-            <Project key={project.num} {...project} />
-          ))}
+          <div className="projects-grid">
+            {portfolioData.projects.map((project) => (
+              <Project key={project.num} {...project} />
+            ))}
+          </div>
         </section>
 
         <section className="contact" id="contact">
