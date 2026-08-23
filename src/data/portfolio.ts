@@ -133,6 +133,15 @@ export const portfolioData: PortfolioData = {
       className: 'atmosphere',
       demo: 'https://atmosphere-umber.vercel.app/',
     },
+    {
+  num: '06',
+  title: 'MERCURY',
+  tag: 'Real-Time 3D Specimen Catalogue',
+  copy: 'A scroll-driven catalogue of six interactive WebGL specimens — a morphing liquid-chrome object, a drifting particle field, a rolling terrain, a breathing shell of instanced crystals, a refractive glass knot, and a shader-driven energy orb — each built to explore a different real-time rendering technique.',
+  tags: ['REACT', 'THREE.JS', 'GSAP', 'GLSL'],
+  className: 'mercury',
+  demo: 'https://mercury-hazel-seven.vercel.app/',
+},
   ],
 
   contact: {
@@ -153,5 +162,6 @@ export const portfolioData: PortfolioData = {
       label: 'GitHub',
       href: 'https://github.com/harshitaworld9965-creator',
     },
+
   ],
 }
