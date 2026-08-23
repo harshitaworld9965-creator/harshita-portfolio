@@ -145,3 +145,4 @@ export const portfolioData: PortfolioData = {
     },
   ],
 }
+export default App;
