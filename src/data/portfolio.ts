@@ -113,6 +113,16 @@ export const portfolioData: PortfolioData = {
       className: 'still',
       demo: 'https://content-summarizer-iota.vercel.app/',
     },
+
+    {
+      num: '04',
+      title: 'THE DEEP',
+      tag: 'Interactive Scroll Experience',
+      copy: 'An immersive scroll-driven descent from the ocean surface to the deepest point on Earth, where the soundscape, light, and pressure all respond in real time to how far down you go.',
+      tags: ['REACT', 'TONE.JS', 'WEB AUDIO', 'SVG'],
+      className: 'abyss',
+      demo: 'https://REPLACE-WITH-YOUR-OCEAN-URL.vercel.app',
+    },
   ],
 
   contact: {
